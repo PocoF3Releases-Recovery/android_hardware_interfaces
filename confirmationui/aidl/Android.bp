@@ -18,6 +18,7 @@ package {
 
 aidl_interface {
     name: "android.hardware.confirmationui",
+    recovery_available: true,
     vendor_available: true,
     defaults: [
         "android.hardware.security.keymint-latest-defaults",

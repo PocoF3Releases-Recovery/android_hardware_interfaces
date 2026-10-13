@@ -59,6 +59,7 @@ cc_defaults {
 // version are declared.
 cc_library {
     name: "libkeymint_support",
+    recovery_available: true,
     cflags: [
         "-DKEYMINT_HAL_V4",
         "-DKEYMINT_HAL_V5",
